@@ -7,7 +7,6 @@ const education = [
     institution: "MJPRU, Bareilly",
     degree: "BCA, Computer Application",
     period: "Nov 2023 - Sep 2026",
-    gpa: "PCT: 69%",
     icon: "🎓",
   },
   {

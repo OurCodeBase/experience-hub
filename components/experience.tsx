@@ -13,25 +13,27 @@ type Experience = {
 
 const experiences: Experience[] = [
   {
-    title: "Freelance Full Stack Developer",
-    company: "Remote",
-    period: "Jan 2025 - Present",
+    title: "Full Stack Developer Intern",
+    company: "Sicuaura Global Pvt. Ltd.",
+    period: "Dec 2025 - Mar 2026",
     responsibilities: [
-      "Building easy to maintain, modern (dynamic), responsive and reliable business solutions.",
-      "Established strong relationships with clients through clear communication and high-quality work on time and within budget."
+      "Contributed to ERP and e-commerce platforms across 4 repositories, delivering 7k+ lines of production code and eliminating 1.5k+ lines of redundant code for better maintainability and code quality.",
+      "Built responsive UI features with React and Tailwind CSS, improving efficiency using memoization techniques such as React.memo, useMemo, useCallback, and debouncing.",
+      "Implemented RESTful APIs using structured Express architecture, including role-based authentication and authorization for secure user access and business logic management.",
+      "Reduced API latency and database load using Redis caching, and containerized services including PostgreSQL, Redis, pgAdmin, and MongoDB with Docker for reproducible development and deployment environments."
     ],
-    skills: ["React.js", "BaaS", "Github Actions", "CI/CD", "Embedded.js", "Nest.js", "PWA", "React Native", "NoSQL"]
+    skills: ["Docker", "Redis", "PostgreSQL", "Prisma ORM", "Express.js", "React.js", "Redux", "TypeScript", "Tailwind CSS"]
   },
   {
-    title:  "Microsoft Learn Ambassadors Workshop",
-    company: "Microsoft",
-    period: "Jun 2024 - Jul 2024",
+    title: "Freelance Full Stack Developer",
+    company: "Remote",
+    period: "Jan 2025 - Sep 2025",
     responsibilities: [
-      "Working on web applications and deployements on Azure.",
-      "Building RESTful APIs in python and deploy it to Azure.",
+      "Developed full-stack web applications for small businesses using React, Express.js, and Firebase.",
+      "Delivered responsive dashboards, authentication systems, and REST APIs for client projects."
     ],
-    skills: ["React", "Azure", "Python", "RESTful API", "CI/CD"],
-  },
+    skills: ["Express.js", "React.js", "BaaS", "NoSQL", "Firebase", "TypeScript", "Tailwind CSS"]
+  }
 ]
 
 export default function Experience() {
